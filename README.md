@@ -90,6 +90,10 @@ def create
     "scientific_binomial" : "Haliaeetus leucocephalus"
 }
 
+to see sightings from specific dates in postman:
+
+$ http://localhost:3000/sightings?start_date=2023-01-01&end_date=2023-03-01
+
 
 
 
